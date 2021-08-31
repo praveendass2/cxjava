@@ -25,5 +25,5 @@ steps:
     
 - task: CopyFiles@2
   inputs:
-    Contents: '**\bin\jar'
+    Contents: 'java-hello-world-with-maven-master\target\jar'
     TargetFolder: '$(build.artifactstagingdirectory)'
