@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: demo-agentpool
+pool: Default
   
 
 steps:
