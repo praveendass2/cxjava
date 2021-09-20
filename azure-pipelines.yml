@@ -4,12 +4,6 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 parameters:
-- name: image
-  displayName: Pool Image
-  values:
-  - windows-latest
-  - ubuntu-latest
-  - macOS-latest
 - name: name
   displayName: Project Name
   type: string
