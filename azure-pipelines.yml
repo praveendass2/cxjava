@@ -10,13 +10,13 @@ parameters:
   - windows-latest
   - ubuntu-latest
   - macOS-latest
-- name: test
-  displayName: Run Tests?
-  type: boolean
-  default: false
+- name: name
+  displayName: Project Name
+  type: string
+  default: sample
   
-trigger:
-- master
+trigger: none
+
 
 pool: Default
   
